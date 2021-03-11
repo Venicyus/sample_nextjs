@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import React, { ReactElement, ReactNode } from 'react';
 import Head from 'next/head';
 
 import styles from './styles.module.css';
@@ -8,7 +8,7 @@ type Props = {
   children: ReactNode;
 };
 
-const ViewComponent = ({ title, children }: Props) => (
+const ViewComponent = ({ title, children }: Props): ReactElement => (
   <>
     <Head>
       <meta charSet="UTF-8" />
