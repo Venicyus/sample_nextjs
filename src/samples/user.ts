@@ -1,6 +1,6 @@
-import { User } from '@app/interfaces/user';
+import { IUser } from '@app/interfaces/user';
 
-export const sampleUser: User[] = [
+export const sampleUser: IUser[] = [
   { id: 1, name: 'Venicyus' },
   { id: 2, name: 'Geovane' },
   { id: 3, name: 'Diego' },
