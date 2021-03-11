@@ -3,3 +3,19 @@ body {
   margin: 0;
   user-select: none;
 }
+
+.flex {
+  @include mx_flex;
+}
+
+.flex_center {
+  @include mx_flex_center;
+}
+
+.flex_center_column {
+  @include mx_flex_center_column;
+}
+
+.height_100vh {
+  @include mx_height_100vh;
+}
