@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 import useStories from '@app/hooks/useStories';
 import ViewComponent from '@app/components/View';
 
-const HomePage: React.FC = (): ReactElement => {
+const LoginPage: React.FC = (): ReactElement => {
   const { appStore } = useStories();
 
   return (
@@ -19,9 +19,9 @@ const HomePage: React.FC = (): ReactElement => {
 
       <div>{appStore.isLoading ? 'Ligado' : 'Desligado'}</div>
 
-      <Link href="/login">Login</Link>
+      <Link href="/">Home</Link>
     </ViewComponent>
   );
 };
 
-export default observer(HomePage);
+export default observer(LoginPage);
