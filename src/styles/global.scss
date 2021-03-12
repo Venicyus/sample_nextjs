@@ -1,6 +1,7 @@
+@import 'mixins';
+
 html,
 body {
-  margin: 0;
   user-select: none;
 }
 
@@ -17,5 +18,5 @@ body {
 }
 
 .height_100vh {
-  @include mx_height_100vh;
+  height: 100vh;
 }
