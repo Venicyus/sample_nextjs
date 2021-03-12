@@ -1,11 +1,12 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import { AppProps } from 'next/app';
+
+import { AppProvider } from '@app/hooks/useStories';
 
 import '@app/styles/bootstrap.theme.scss';
 import '@app/styles/global.scss';
-import { AppProvider } from '@app/hooks/useStories';
 
-const MyApp = ({ Component, pageProps }: AppProps): ReactElement => {
+const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <AppProvider initialState={pageProps.initialState}>
       <Component {...pageProps} />

@@ -1,4 +1,4 @@
-import React, { ReactElement } from 'react';
+import React from 'react';
 import Link from 'next/link';
 import { observer } from 'mobx-react';
 import { Button } from 'react-bootstrap';
@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 import useStories from '@app/hooks/useStories';
 import ViewComponent from '@app/components/View';
 
-const HomePage: React.FC = (): ReactElement => {
+const HomePage: React.FC = () => {
   const { appStore } = useStories();
 
   return (

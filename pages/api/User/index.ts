@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { sampleUser } from '@app/samples/user';
+import { sampleUser } from '@app/samples/users';
 
 const handler = (req: NextApiRequest, res: NextApiResponse): void => {
   try {

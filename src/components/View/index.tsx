@@ -1,4 +1,4 @@
-import React, { ReactElement, ReactNode } from 'react';
+import React, { ReactNode } from 'react';
 import Head from 'next/head';
 
 import SpinnerComponent from './Spinner';
@@ -9,7 +9,7 @@ type Props = {
   children: ReactNode;
 };
 
-const ViewComponent = ({ title, children }: Props): ReactElement => {
+const ViewComponent: React.FC<Props> = ({ title, children }) => {
   return (
     <>
       <Head>
