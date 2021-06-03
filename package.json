@@ -1,41 +1,24 @@
 {
-  "name": "app",
-  "version": "0.1.0",
-  "private": true,
+  "name": "sample_nextjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Venicyus/sample_nextjs.git",
+  "author": "Venicyus <venicyusti@gmail.com>",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "type-check": "tsc",
-    "lint": "eslint . --fix --ext .js,.jsx,.ts,.tsx"
+    "start": "next start"
   },
   "dependencies": {
-    "@babel/core": "^7.13.10",
-    "axios": "^0.21.1",
-    "bootstrap": "^4.6.0",
-    "mobx": "^6.1.8",
-    "mobx-react": "^7.1.0",
-    "next": "^10.0.8",
-    "react": "^17.0.1",
-    "react-bootstrap": "^1.5.1",
-    "react-dom": "^17.0.1",
-    "sass": "^1.32.8"
+    "next": "^10.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-class-properties": "^7.13.0",
-    "@babel/plugin-proposal-decorators": "^7.13.5",
-    "@types/node": "^14.14.33",
-    "@types/react": "^17.0.3",
-    "@types/react-bootstrap": "^0.32.25",
-    "@types/react-dom": "^17.0.2",
-    "@typescript-eslint/eslint-plugin": "^4.17.0",
-    "@typescript-eslint/parser": "^4.17.0",
-    "eslint": "^7.21.0",
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-react": "^7.22.0",
-    "prettier": "^2.2.1",
-    "typescript": "^4.2.3"
+    "@types/node": "^15.12.0",
+    "@types/react": "^17.0.9",
+    "@types/react-dom": "^17.0.6",
+    "typescript": "^4.3.2"
   }
 }
